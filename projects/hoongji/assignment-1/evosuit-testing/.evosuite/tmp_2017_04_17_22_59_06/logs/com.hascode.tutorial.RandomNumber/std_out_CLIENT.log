@@ -1,0 +1,93 @@
+* Starting client
+* Connecting to master process on port 11199
+* Analyzing classpath: 
+  - C:\Users\Rynn\Desktop\evosuit-testing\target\classes
+* Finished analyzing classpath
+* Generating tests for class com.hascode.tutorial.RandomNumber
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 22:59:09.738 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\Rynn\Desktop\evosuit-testing\.evosuite\evosuite-seeds\com.hascode.tutorial.RandomNumber.seed
+* Total number of test goals: 
+  - Line 33
+  - Branch 8
+  - Exception 0
+  - MutationFactory 238
+  - Output 6
+  - Method 5
+  - MethodNoException 5
+  - CBranchFitnessFactory 8
+* Using seed 1492495148220
+* Starting evolution
+* Search finished after 31s and 76 generations, 32843 statements, best individual has fitness: 14.666666666666666
+* Writing sequences to pool
+* Minimizing test suite
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 94%
+* Total number of goals: 33
+* Number of covered goals: 31
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 8
+* Number of covered goals: 7
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 96%
+* Total number of goals: 238
+* Number of covered goals: 228
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 80%
+* Total number of goals: 5
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 88%
+* Total number of goals: 8
+* Number of covered goals: 7
+* Generated 10 tests with total length 14
+* Coverage of criterion STATEMENT: 97%
+* Total number of goals: 171
+* Number of covered goals: 166
+* Coverage of criterion ONLYBRANCH: 75%
+* Total number of goals: 4
+* Number of covered goals: 3
+* Coverage of criterion IBRANCH: 91%
+* Total number of goals: 11
+* Number of covered goals: 10
+* Coverage of criterion ONLYMUTATION: 96%
+* Total number of goals: 238
+* Number of covered goals: 228
+* Coverage of criterion MUTATION: 11%
+* Total number of goals: 238
+* Number of covered goals: 27
+* Coverage of criterion INPUT: 0%
+* Total number of goals: 31
+* Number of covered goals: 0
+* Coverage of criterion METHODTRACE: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Resulting test suite's coverage: 91% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 22:59:55.387 [pool-2-thread-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 9 seconds more than allowed.
+* Resulting test suite's mutation score: 10%
+* Compiling and checking tests
+* Writing JUnit test case 'RandomNumber_ESTest' to C:\Users\Rynn\Desktop\evosuit-testing\.evosuite\tmp_2017_04_17_22_59_06\tests
+* Done!
+

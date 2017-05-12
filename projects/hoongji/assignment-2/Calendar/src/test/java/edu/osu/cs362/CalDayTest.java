@@ -88,8 +88,6 @@ public class CalDayTest {
 
 	 	GregorianCalendar cal = new GregorianCalendar(2017, 4, 25);
 	 	CalDay calDay = new CalDay(cal);
-
-	 	calDay.appts = null;
 	 	
 	 	calDay.iterator();
 

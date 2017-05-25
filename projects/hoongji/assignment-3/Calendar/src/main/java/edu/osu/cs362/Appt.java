@@ -76,7 +76,7 @@ public class Appt {
     /**
      * @sets valid to true if the appointment is valid
      */
-    private void isValid() {
+    void isValid() {
     	if(startHour<0 || startHour>23)
     		this.valid=false;
     	else
